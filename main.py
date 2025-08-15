@@ -4,9 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import datetime
-import os
-import sys
-import json
 from mapping import FEATURE_MAP
 from features import Feature
 
