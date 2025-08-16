@@ -138,10 +138,9 @@ class Feature:
         return cashflow
     
     def _process_earnings(self, ticker):
-        earnings = ticker.earnings
+        earnings = ticker.income_stmt
         if not earnings.empty:
-            earnings['Earnings_Per_Share'] = earnings['Earnings']
-            earnings['Revenue_Growth'] = earnings['Revenue'].pct_change() * 100
+            print(earnings)
         return earnings
     
     def _process_quarterly_earnings(self, ticker):
