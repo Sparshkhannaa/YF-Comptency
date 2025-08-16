@@ -1,2 +1,4 @@
 STARTING
-Current authos - Sparsh Khanna
+Current authors - Sparsh Khanna
+Ojus Sharma
+Pratham Shah
